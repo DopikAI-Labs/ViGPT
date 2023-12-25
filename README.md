@@ -9,7 +9,8 @@ To promote open research on large models within the Vietnamese NLP community, th
 ## Overview
 > Large language models (LLMs) and their applications in low-resource languages (such as in Vietnamese) are limited due to lack of training data and benchmarking datasets. This paper introduces a practical real-world implementation of a question answering system for Vietnamese, called ViGPTQA, leveraging the power of LLM. Since there is no effective LLM in Vietnamese to date, we also propose, evaluate, and open-source an instruction-tuned LLM for Vietnamese, named ViGPT. ViGPT demonstrates exceptional performances, especially on real-world scenarios. We curate a new set of benchmark datasets that encompass both AI- and human-generated data, providing a comprehensive evaluation framework for Vietnamese LLMs. By achieving state-of-the-art results and approaching other multilingual LLMs, our instruction-tuned LLM underscores the need for dedicated Vietnamese-specific LLMs. Our open-source model supports customized and privacy-fulfilled Vietnamese language processing systems.
 
-Join our benchmarking challenge: [DopikAI's LLM Challenge](https://aihub.vn/competitions/596?fbclid=IwAR21G61Kqm2t8_TdVjfuMN4fic-T41_tqS6OntQBMrdo3jHndEpNvFGzRhE#learn_the_details-evaluation).
+- Join our benchmarking challenge: [DopikAI's LLM Challenge](https://aihub.vn/competitions/596?fbclid=IwAR21G61Kqm2t8_TdVjfuMN4fic-T41_tqS6OntQBMrdo3jHndEpNvFGzRhE#learn_the_details-evaluation).
+- Join our HuggingFace organization to test ViGPT: [Join DopikAI's page](https://huggingface.co/dopikai/) (auto approved), and test [vi-gpt-170k](https://huggingface.co/dopikai/vi-gpt-170k).
 
 ## Requirements and Installation
 #### Create virtual environment
