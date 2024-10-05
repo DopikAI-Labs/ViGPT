@@ -2,7 +2,7 @@
 
 The official repository for paper: ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering: System Overview, Core Models Training, and Evaluations.
 
-Accepted to EMNLP 2023 Industry Track.
+Accepted to EMNLP 2023 Industry Track: [ViGPTQA-aclanthology](https://aclanthology.org/2023.emnlp-industry.70/)
 
 To promote open research on large models within the Vietnamese NLP community, this project has open-sourced the Vietnamese large model with instruction fine-tuning. The project employs Vietnamese instructional data to fine-tune Vietnamese large language models, resulting in a significant enhancement of the model's ability to understand and execute instructions.
 
@@ -62,7 +62,25 @@ To benchmark the datasets mentioned in the paper, please navigate to the "evalua
 Our dataset for training is available upon request for research purposes. Please send your information, including details about research usage and affiliations to EMAIL OF CORRESPONDENCE HERE.
 
 ## Citation
-TBU
+```
+@inproceedings{nguyen-etal-2023-vigptqa,
+    title = "{V}i{GPTQA} - State-of-the-Art {LLM}s for {V}ietnamese Question Answering: System Overview, Core Models Training, and Evaluations",
+    author = "Nguyen, Minh Thuan  and
+      Tran, Khanh Tung  and
+      Nguyen, Nhu Van  and
+      Vu, Xuan-Son",
+    editor = "Wang, Mingxuan  and
+      Zitouni, Imed",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-industry.70",
+    doi = "10.18653/v1/2023.emnlp-industry.70",
+    pages = "754--764",
+}
+```
 
 ## Acknowledgments
 The authors would like to thank the DopikAI Technology Company (http://DoPik.AI),  Quang-Anh Bui, Xuan-Vu Dinh, Tien-Tung Bui, Thanh-Tu Nguyen, and many annotators for their hard work to support the evaluation task. Without their support, the work would not have been possible.
